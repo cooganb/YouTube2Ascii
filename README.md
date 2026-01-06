@@ -1,13 +1,14 @@
 # yt2ascii
 
-Generate ASCII art GIFs from YouTube videos.
+Generate ASCII art from YouTube on the Command Line
 
 ![Sample ASCII GIF](sample.gif)
+*Rickroll from the Command Line*
 
 ## Features
 
 - Downloads YouTube videos automatically (via yt-dlp)
-- Auto-detects the most interesting segment using motion analysis
+- Auto-detects the most interesting segment using YouTube's heatmap analysis
 - Converts video frames to ASCII art
 - Outputs animated GIF with customizable colors
 - Play ASCII animation directly in your terminal
