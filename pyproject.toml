@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yt2ascii"
+version = "0.1.0"
+description = "Generate ASCII art GIFs from YouTube videos"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "yt-dlp>=2023.0.0",
+    "opencv-python>=4.5.0",
+    "Pillow>=9.0.0",
+    "numpy>=1.20.0",
+    "click>=8.0.0",
+]
+
+[project.scripts]
+yt2ascii = "yt2ascii.cli:main"
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "ruff"]
