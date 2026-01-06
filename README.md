@@ -1,8 +1,9 @@
-# yt2ascii
+# YouTube to ASCII
 
 Generate ASCII art from YouTube on the Command Line
 
 ![Sample ASCII GIF](sample.gif)
+
 *Rickroll from the Command Line*
 
 ## Features
